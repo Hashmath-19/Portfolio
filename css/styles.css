@@ -25,6 +25,7 @@ h3{
 }
 a{
   color:#11999E;
+  text-decoration: none;
 }
 hr{
   background-color: white;
@@ -35,6 +36,9 @@ hr{
 }
 p{
   line-height: 2;
+}
+ul{
+  list-style-type: none;
 }
 .top-container{
   background-color: #E4F9F5;
@@ -61,8 +65,23 @@ p{
   float: right;
   margin-left: 30px;
 }
+.js{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
 .cpp{
   width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.os-dbms{
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.project-img{
+  width: 40%;
   float: left;
   margin-right: 30px;
 }
@@ -122,7 +141,15 @@ p{
   height: 100px;
   padding-top: 20px;
 }
+.project-links{
+  color: #3AB4F2;
+}
+a:hover{
+  color: #31087B;
+}
+
 .footer-link{
+  padding-right: 20px;
   color: #11999E;
 }
 .copyright{
